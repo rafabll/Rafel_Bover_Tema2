@@ -155,12 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f625152148ab01a4ea729db0bffbe460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: Rafa
-  enemyName: Andreu
-  x: 5
-  y: 3
-  z: 3
-  isRaining: 0
+  isRaining: 1
+  isCold: 1
 --- !u!65 &964021261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -491,6 +487,8 @@ MonoBehaviour:
   name: Coche
   numberWheels: 4
   hasSiren: 0
+  isOn: 1
+  gasoline: 8.25
 --- !u!1001 &9038813475495975273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,3 +567,5 @@ MonoBehaviour:
   name: Ambulancia
   numberWheels: 4
   hasSiren: 1
+  isOn: 1
+  gasoline: 49.75
