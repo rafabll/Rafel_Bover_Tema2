@@ -9,15 +9,15 @@ public class MyFirstScript : MonoBehaviour
     private float playerSpeed = 5.25f;
     
     [SerializeField] private bool gameOver = false;
-   
-
-    public string playerName = "Rafa";
+    */
+    [SerializeField] private int x = 5;
+    [SerializeField] private int y = 3;
+    public string playerName = "Feliciano";
+    /*
     public string enemyName = "Rafa ";
 
     public int playerAge = 15;
 
-    [SerializeField] private int x = 5;
-    [SerializeField] private int y = 3;
     [SerializeField] private int z = 3;
     [SerializeField] private int playerHP = 10;
     */
@@ -29,6 +29,10 @@ public class MyFirstScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        HelloWorld();
+        HelloName("Rafa");
+        Debug.Log(message: GetHello());
+        Debug.Log(message: $"{x} + {y} = {Suma(x, y)}");
 
         /*
         Debug.Log(playerAge);
@@ -98,5 +102,21 @@ public class MyFirstScript : MonoBehaviour
      }
        */    
 
+    }
+    public void HelloWorld()
+    {
+        Debug.Log(message: $"¡Hola mundo!");
+    }
+    public void HelloName(string Name)
+    {
+        Debug.Log(message: $"Hola {Name}");
+    }
+    public string GetHello()
+    {
+        return "Hola";
+    }
+    public int Suma(int num1, int num2)
+    {
+        return num1 + num2;
     }
 }

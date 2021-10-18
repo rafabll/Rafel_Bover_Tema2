@@ -52,7 +52,7 @@ public class Vehicle : MonoBehaviour
         {
             Debug.Log(message: $"{name} no está en marcha");
         }
-        */
+        
      if (isOn == true)
         {
             if (gasoline < 10)
@@ -72,11 +72,37 @@ public class Vehicle : MonoBehaviour
         {
             Debug.Log(message: $"{name} no está en marcha.");
         }
+     */
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       if (isOn == true)
+        {
+           if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                transform.position += Vector3.right;
+            }
+
+           if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                transform.position -= Vector3.right;
+            }
+
+           if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                transform.position += Vector3.up;
+            }
+
+           if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                transform.position -= Vector3.up;
+            }
+        }
+       else
+        {
+            Debug.Log(message: "Enciende el vehicula antes de moverte");
+        }
     }
 }
