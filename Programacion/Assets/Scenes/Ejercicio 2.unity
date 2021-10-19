@@ -157,6 +157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f625152148ab01a4ea729db0bffbe460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 5
+  y: 3
+  playerName: Feliciano
   isRaining: 1
   isCold: 1
 --- !u!65 &964021261
@@ -449,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6562410619472276307, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6575206508177484591, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_RootOrder
@@ -457,15 +460,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6575206508177484591, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3164835
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575206508177484591, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.120827675
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575206508177484591, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6603992
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6575206508177484591, guid: 0505016ae58b1464ca1c09f5c81a88c8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -533,15 +536,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2127273839736870745, guid: cb0410f6a1b353944914262e04275971, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3164835
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2127273839736870745, guid: cb0410f6a1b353944914262e04275971, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.120827675
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2127273839736870745, guid: cb0410f6a1b353944914262e04275971, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.13
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2127273839736870745, guid: cb0410f6a1b353944914262e04275971, type: 3}
       propertyPath: m_LocalRotation.w
@@ -577,7 +580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2136982772170577701, guid: cb0410f6a1b353944914262e04275971, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb0410f6a1b353944914262e04275971, type: 3}
