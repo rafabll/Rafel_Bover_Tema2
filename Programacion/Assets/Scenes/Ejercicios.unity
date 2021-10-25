@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2002
+  m_Text: VENANCIO
 --- !u!222 &29731383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -554,13 +554,14 @@ GameObject:
   - component: {fileID: 718098815}
   - component: {fileID: 718098819}
   - component: {fileID: 718098820}
+  - component: {fileID: 718098821}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &718098815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718098814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d72c4bc83213594891a8e266ad3e632, type: 3}
   m_Name: 
@@ -656,9 +657,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718098814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 265ffd5829842bb4c863ad17ae713843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &718098821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718098814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c7435b85b4d5840aa8139a3a7b809b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &735904305
@@ -758,6 +771,8 @@ GameObject:
   - component: {fileID: 2078939712}
   - component: {fileID: 2078939715}
   - component: {fileID: 2078939717}
+  - component: {fileID: 2078939716}
+  - component: {fileID: 2078939718}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -846,7 +861,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 2002
+  m_Text: VENANCIO
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -896,13 +911,39 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078939710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a68d276b870f17488b67f593e2d608a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   year: 2021
+--- !u!114 &2078939716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078939710}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5bb136022f0714d9af5a4de2bf7532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
 --- !u!114 &2078939717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078939710}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017afc85abddff64886c6b5c3d409018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  year: 2021
+--- !u!114 &2078939718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -911,7 +952,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2078939710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017afc85abddff64886c6b5c3d409018, type: 3}
+  m_Script: {fileID: 11500000, guid: bde49444bfb4ecd479f196345ce60f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  year: 2021
+  playerNum: 0
